@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang= "en">
+<head>
+<!--Lab 12 KM CSCE 102 H01 November 2023-->
+<meta charset= "utf-8">
+<title> Lab 12 Kaylin Morris </title>
+
+<script>
+function changeImage (x,y){
+document.getElementById(x).src=y;
+}
+</script>
+
+
+<style>
+#h{background-color:pink;
+color:white;
+border:solid 2px deepPink;
+height:100px;
+padding:10px;
+position:absolute;
+top:0px;
+left:50px;
+right:50px;
+font-size:22pt;
+font-variant:small-caps;
+text-align:center;}
+
+.one{
+position:absolute;
+text-align:justify;
+top:150px;
+left:50px;
+right:50%;
+font-size:15pt;
+}
+
+.pic{
+position:absolute;
+text-align:justify;
+top:175px;
+right:70px;
+left:66%;
+}
+
+#f{background-color:pink;
+color:white;
+border:solid 2px deepPink;
+height: 60px;
+text-align:center;
+padding: 10px
+height:160px;
+position:absolute;
+top:450px;
+left:50px;
+right:50px;
+font-variant:small-caps;}
+
+
+</style>
+
+
+</head>
+<body>
+<header id="h" >
+<h1> Hey There Gorgeous!</h1>
+</header>
+<br>
+
+<main>
+<div class="one"> <p> I'm sorry to hear you have been feeling down lately. No one deserves to feel that way. Just know that I am here for you always and am so proud of you!<br>
+Here a a few fun facts to turn that frown upside down
+<ol>
+<li>Otters hold hands in the water so they do not drift apart</li>
+<li>Cows have best friends </li>
+<li>Dolphins give each other names </li>
+</ol>
+</p> </div> <br>
+
+<div class="pic">
+<img id="image" onmouseover="changeImage('image','other_Images/otter2.jpg')" src="other_Images/cow2.jpg" alt="cow">
+</div>
+
+
+</main>
+
+<footer id="f">
+<h2> Never forget how amazing you are! </h2>
+</footer>
+
+
+</body>
+</html>
